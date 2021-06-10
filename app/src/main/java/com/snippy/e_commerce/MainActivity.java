@@ -1,5 +1,6 @@
 package com.snippy.e_commerce;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -15,4 +16,5 @@ public class MainActivity extends AppCompatActivity {
             getSupportFragmentManager().beginTransaction().add(R.id.container,new Login()).commit();
         }
     }
+    
 }
